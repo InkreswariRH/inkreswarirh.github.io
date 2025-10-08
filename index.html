@@ -1,4 +1,628 @@
-<?php include "header.html"; ?>
+<!doctype html>
+<html lang="zxx">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Links of CSS files -->
+        <link rel="stylesheet" href="assets/css/aoss.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/boxicons.min.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/flaticon.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/header.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+
+        <title>Digital Business</title>
+        <link rel="icon" type="image/png" href="assets/img/all-img/iconunj.png">
+    </head>
+    <body>
+
+        <!-- preloader -->
+        <div class="preloader-container" id="preloader">
+            <div class="preloader-dot"></div>
+            <div class="preloader-dot"></div>
+            <div class="preloader-dot"></div>
+            <div class="preloader-dot"></div>
+            <div class="preloader-dot"></div>
+        </div>
+        <!-- preloader -->
+
+       <!-- Start Navbar Area Start -->
+    <div class="navbar-area style-2" id="navbar">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="main.php" style="display: flex; align-items: center; gap: 5px;">
+                    <img class="logo-light" src="assets/img/logo/unjfeb.png" alt="logo" style="width: 100px; height: auto;">
+                    <img class="logo-light" src="assets/img/logo/dikti.png" alt="logo" style="width: 70px; height: auto;">
+                    <img class="logo-dark" src="assets/img/logo/unjfeb.png" alt="logo" style="width: 100px; height: auto;">
+                    <img class="logo-dark" src="assets/img/logo/dikti.png" alt="logo" style="width: 70px; height: auto;">
+                </a>
+                <div class="other-option d-lg-none">
+                    <div class="option-item">
+                        <button type="button" class="search-btn" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop">
+                            <i class='bx bx-power-off'></i>
+                        </button>
+                    </div>
+                </div>
+                <a class="navbar-toggler" data-bs-toggle="offcanvas" href="#navbarOffcanvas" role="button" aria-controls="navbarOffcanvas">
+                    <i class='bx bx-menu'></i>
+                </a>
+                <div class="collapse navbar-collapse justify-content-between">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="javascript:void(0)" class="dropdown-toggle nav-link active">
+                                Profil
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a href="javascript:void(0)" class="nav-link">Study Program</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item"><a href="profil.php" class="nav-link">Profile</a></li>
+                                        <li class="nav-item"><a href="visimisi.php" class="nav-link">Vision and Mission</a></li>
+                                        <li class="nav-item"><a href="https://drive.google.com/drive/folders/1tRoHGqQp09PZTPzMPGISIkloMY80tgFC?usp=drive_link" target="_blank" class="nav-link">Course Description</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a href="javascript:void(0)" class="nav-link active">Organization</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item"><a href="https://drive.google.com/drive/folders/1WRiJa7-mEfWs5AXxp8BBy90s3ZaWphfE?usp=drive_link" target="_blank" class="nav-link">Organizational Structure</a></li>
+                                        <li class="nav-item"><a href="https://drive.google.com/drive/folders/1GRu76dEwoaPV76g04GSGhW34ZZJToZaR?usp=drive_link" target="_blank" class="nav-link">Dean</a></li>
+                                        <li class="nav-item"><a href="https://drive.google.com/drive/folders/1oKdSKcPxzHvHUTcQguLT3GRK6J8uW5l1?usp=drive_link" target="_blank" class="nav-link">GPJM</a></li>
+                                        <li class="nav-item"><a href="lecturer.php" class="nav-link">Lecturer</a></li>
+                                        <li class="nav-item"><a href="https://drive.google.com/drive/folders/1A6Ghp_QQwOdLgIIOmChyBdUtCS-wWgTw?usp=drive_link" target="_blank" class="nav-link">Teaching staff</a></li>
+                                        <li class="nav-item"><a href="https://drive.google.com/drive/folders/1-BAeXd5dY8vB-lCNWPrUYw8Zds8NHi-4?usp=drive_link" target="_blank" class="nav-link">Students</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:void(0)" class="dropdown-toggle nav-link">
+                                Research
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a href="javascript:void(0)" class="nav-link">Research</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item"><a href="https://drive.google.com/drive/folders/1S2zgpN3cN8hZIezRC74xnOElYK4zCtjL?usp=drive_link" target="_blank" class="nav-link">Independent</a></li>
+                                        <li class="nav-item"><a href="https://drive.google.com/drive/folders/1O6vVBNTOmVOk2SMgg3iXa-vM-XX3_Xgw?usp=drive_link" target="_blank" class="nav-link">Faculty Grants</a></li>
+                                        <li class="nav-item"><a href="https://drive.google.com/drive/folders/1XU3TWgsUIaolwWT1MEz7aQ0MLX0w6NGb?usp=drive_link" target="_blank" class="nav-link">University Grants</a></li>
+                                        <li class="nav-item"><a href="https://drive.google.com/drive/folders/1of7jolf4ikPoG4T39h8sidR9F6o39Aq6?usp=drive_link" target="_blank" class="nav-link">External Grants</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a href="javascript:void(0)" class="nav-link">Community Service</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item"><a href="https://drive.google.com/drive/folders/1qVAUE04CF78Un4eGhp9Hqn4hYBJHXXqX?usp=drive_link" target="_blank" class="nav-link">Independent</a></li>
+                                        <li class="nav-item"><a href="https://drive.google.com/drive/folders/1OpnCYqN2OghGb2fosoD-GIYqBlcQ6Ibs?usp=drive_link" target="_blank" class="nav-link">Faculty Grants</a></li>
+                                        <li class="nav-item"><a href="https://drive.google.com/drive/folders/1bpOZBSpxeTiRwSOiEWB8qe5WROj_MQrl?usp=drive_link" target="_blank" class="nav-link">University Grants</a></li>
+                                        <li class="nav-item"><a href="https://drive.google.com/drive/folders/1onF_qnsigug6SulYKlXnAdt-RZO9_1ES?usp=drive_link" target="_blank" class="nav-link">External Grants</a></li>
+                                    </ul>
+                                </li>   
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:void(0)" class="dropdown-toggle nav-link">
+                                Publication
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a href="https://drive.google.com/drive/folders/1x_Q0S9X2gHtEPD1peK4Wo3HlTzugZUJE?usp=drive_link" target="_blank" class="nav-link">Competency Certification</a></li>
+                                <li class="nav-item"><a href="https://drive.google.com/drive/folders/1q2PtqPMHujCi_vANtP1Qov3IlEF1sPWf?usp=drive_link" target="_blank" class="nav-link">Patents/HKI</a></li>
+                                <li class="nav-item"><a href="https://drive.google.com/drive/folders/103Nw0T6YJ9h16YU6e3cUeuuxzpQqgwhi?usp=drive_link" target="_blank" class="nav-link">Publication</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:void(0)" class="dropdown-toggle nav-link">
+                                Academic
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a href="javascript:void(0)" class="nav-link">Course</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item"><a href="https://drive.google.com/drive/folders/11XKJtsIXidF9hf6l6xS5H4hRbdiEqg7d?usp=drive_link" target="_blank" class="nav-link">SK document</a></li>
+                                        <li class="nav-item"><a href="https://drive.google.com/drive/folders/1x9-VGj4qtnYuWgl4sD2jfIKQ3I9Y0rTn?usp=drive_link" target="_blank" class="nav-link">Student Grade Documents</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a href="https://drive.google.com/drive/folders/1olGhEMgpF-uGdatxt9Sj5-zjpe1d-irU?usp=drive_link" target="_blank" class="nav-link">Student Work</a></li>
+                                <li class="nav-item"><a href="javascript:void(0)" class="nav-link">Internship</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item"><a href="https://drive.google.com/drive/folders/1EJcxpwxEe2zTEl9XiXv40aQIAh5CdgzS?usp=drive_link" target="_blank" class="nav-link">Realization</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a href="javascript:void(0)" class="nav-link" style="font-size: 11px;">Final Project/Thesis/Dissertation</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item"><a href="https://drive.google.com/drive/folders/1ypWxDmcgtFZSyHzErnm2VyAbUrwU1ULG?usp=drive_link" target="_blank" class="nav-link">Realization</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a href="https://drive.google.com/drive/folders/15HvR4mBhGRciXekznLZ1vUCQGGW-MwjE?usp=drive_link" target="_blank" class="nav-link">Teaching Practitioners</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:void(0)" class="dropdown-toggle nav-link">
+                                Business
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a href="https://drive.google.com/drive/folders/1zCgNJmaxkGehKr8Ppz08bRI1_H9o1wx-?usp=drive_link" target="_blank" class="nav-link">Collaboration</a></li>
+                                <li class="nav-item"><a href="https://drive.google.com/drive/folders/1CpgzQ6k3JP2VVmMrS8QvywyLHUIxfXs2?usp=drive_link" target="_blank" class="nav-link">Tracer Study</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:void(0)" class="dropdown-toggle nav-link">
+                                International
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a href="https://drive.google.com/drive/folders/1N5TfLTHjLyGkdyJx75dK-J3Kou75aOAt?usp=drive_link" target="_blank" class="nav-link">Research</a></li>
+                                <li class="nav-item"><a href="https://drive.google.com/drive/folders/156qmziqzugqxTnxIwgR4OZ6u-F50zFTd?usp=drive_link" target="_blank" class="nav-link">Community service</a></li>
+                                <li class="nav-item"><a href="https://drive.google.com/drive/folders/1culn8WGhvdvf3CEhp1R7n4EETaW8U3dC?usp=drive_link" target="_blank" class="nav-link">Other Activities</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:void(0)" class="dropdown-toggle nav-link">
+                                Action Plan
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a href="https://drive.google.com/drive/folders/1ZRJscREyOGS88nZ-xQ62V-FMRmlRtg7Q?usp=drive_link" target="_blank" class="nav-link">IKU 1</a></li>
+                                <li class="nav-item"><a href="https://drive.google.com/drive/folders/1IydKvfYg05w-pSE1G10yPSmr4jv_1z0h?usp=drive_link" target="_blank" class="nav-link">IKU 2</a></li>
+                                <li class="nav-item"><a href="https://drive.google.com/drive/folders/1P_vgJ_rwjHbymBG7yAMfVupFR11aASO7?usp=drive_link" target="_blank" class="nav-link">IKU 3</a></li>
+                                <li class="nav-item"><a href="https://drive.google.com/drive/folders/1Q3Mdrpm9dlXOHXqyVkUWL5gYJK1Np9oP?usp=drive_link" target="_blank" class="nav-link">IKU 4</a></li>
+                                <li class="nav-item"><a href="https://drive.google.com/drive/folders/1zW5YdJZJcbJkx33n2BTL_MXBGu3TdfeN?usp=drive_link" target="_blank" class="nav-link">IKU 5</a></li>
+                                <li class="nav-item"><a href="https://drive.google.com/drive/folders/1chRJ-Ip9BKnsNEV7HyGcIcJ8P_vllhqa?usp=drive_link" target="_blank" class="nav-link">IKU 6</a></li>
+                                <li class="nav-item"><a href="https://drive.google.com/drive/folders/1rmfb3H7mpIc7eyG2CwTBPGX6ESkymlyj?usp=drive_link" target="_blank" class="nav-link">IKU 7</a></li>
+                                <li class="nav-item"><a href="https://drive.google.com/drive/folders/1NwZeB7MXNuF0tq8MmHeWWmSfxzQR4FFN?usp=drive_link" target="_blank" class="nav-link">IKU 8</a></li>        
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:void(0)" class="dropdown-toggle nav-link">
+                                Accreditation
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a href="https://drive.google.com/drive/folders/1CmXc4WgbehjdVoqtB9fG-hU0Ubna-uQ6?usp=drive_link" target="_blank" class="nav-link">Criteria 1</a></li>
+                                <li class="nav-item"><a href="https://drive.google.com/drive/folders/1d_m46K_S0O5RbXAvViFRBXGcK-n5GsES?usp=drive_link" target="_blank" class="nav-link">Criteria 2</a></li>
+                                <li class="nav-item"><a href="https://drive.google.com/drive/folders/1-giySBWYZT7rwuBYxa99AusLNxcxX0UR?usp=drive_link" target="_blank" class="nav-link">Criteria 3</a></li>
+                                <li class="nav-item"><a href="https://drive.google.com/drive/folders/1-h7llTwTVWjZcdmfegZE5KblBOFD2Acc?usp=drive_link" target="_blank" class="nav-link">Criteria 4</a></li>
+                                <li class="nav-item"><a href="https://drive.google.com/drive/folders/1V3ybK0rUwiqtDMkLwM0mttkUks1hg7FO?usp=drive_link" target="_blank" class="nav-link">Criteria 5</a></li>
+                                <li class="nav-item"><a href="https://drive.google.com/drive/folders/10fmpxGYurHQ4USMV0dxSRLVLJS0IAPmn?usp=drive_link" target="_blank" class="nav-link">Criteria 6</a></li>
+                                <li class="nav-item"><a href="https://drive.google.com/drive/folders/1Y0IoLAmEKWEX3EP-I_aHQMK1-XXu2Bm1?usp=drive_link" target="_blank" class="nav-link">Criteria 7</a></li>
+                                <li class="nav-item"><a href="https://drive.google.com/drive/folders/1Q_SGivp6YrvgLKUKoR1gB2cCcklEdlq9?usp=drive_link" target="_blank" class="nav-link">Criteria 8</a></li>
+                                <li class="nav-item"><a href="https://drive.google.com/drive/folders/1dSzOL8RtbuU0Uno1ufbofpwIqwJ7ykdx?usp=drive_link" target="_blank" class="nav-link">Criteria 9</a></li>              
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <div class="others-option d-flex align-items-center">
+                        <div class="option-item" style="width: 90px;"></div>
+                        <div class="option-item">
+                            <div class="nav-search">
+                                <a href="#" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop" class="search-button"><i class='bx bx-power-off' data-bs-toggle="tooltip" title="Logout"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </div>
+       <!-- End Navbar Area Start -->
+
+        <!-- Start Responsive Navbar Area -->
+        <div class="responsive-navbar offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="navbarOffcanvas">
+            <div class="offcanvas-header">
+                <a href="main.php" class="logo d-inline-block d-flex align-items-center gap-2">
+                    <img class="logo-light" src="assets/img/logo/unjfeb.png" alt="logo" style="width: 100px; height: auto;">
+                    <img class="logo-light" src="assets/img/logo/dikti.png" alt="logo" style="width: 70px; height: auto;"> 
+                </a>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="accordion" id="navbarAccordion">
+
+                    <!-- menu profil -->
+                    <div class="accordion-item">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseTwo">
+                            Profile
+                        </button>
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion">
+                            <div class="accordion-body">
+                                <div class="accordion" id="navbarAccordion8">
+                                    <div class="accordion-item">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#aboutCollapse1" aria-expanded="false" aria-controls="aboutCollapse">
+                                            Study Program
+                                        </button>
+                                        <div id="aboutCollapse1" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion8">
+                                            <div class="accordion-body">
+                                                <a href="profil.php" class="accordion-link">Profile</a>
+                                                <a href="visimisi.php" class="accordion-link">Vision and Mission</a>
+                                                <a href="https://drive.google.com/drive/folders/1tRoHGqQp09PZTPzMPGISIkloMY80tgFC?usp=drive_link" target="_blank" class="accordion-link">Course Description</a> 
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#aboutCollapse2" aria-expanded="false" aria-controls="aboutCollapse">
+                                            Organization
+                                        </button>
+                                        <div id="aboutCollapse2" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion8">
+                                            <div class="accordion-body">
+                                                <a href="https://drive.google.com/drive/folders/1WRiJa7-mEfWs5AXxp8BBy90s3ZaWphfE?usp=drive_link" target="_blank" class="accordion-link">Organizational Structure</a>
+                                                <a href="https://drive.google.com/drive/folders/1GRu76dEwoaPV76g04GSGhW34ZZJToZaR?usp=drive_link" target="_blank" class="accordion-link">Dean</a>
+                                                <a href="https://drive.google.com/drive/folders/1oKdSKcPxzHvHUTcQguLT3GRK6J8uW5l1?usp=drive_link" target="_blank" class="accordion-link">GPJM</a> 
+                                                <a href="lecturer.php" class="accordion-link">Lecturer</a>
+                                                <a href="https://drive.google.com/drive/folders/1A6Ghp_QQwOdLgIIOmChyBdUtCS-wWgTw?usp=drive_link" target="_blank" class="accordion-link">Teaching staff</a>
+                                                <a href="https://drive.google.com/drive/folders/1-BAeXd5dY8vB-lCNWPrUYw8Zds8NHi-4?usp=drive_link" target="_blank" class="accordion-link">Students</a> 
+                                            </div>
+                                        </div>
+                                    </div>      
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- menu riset -->
+                    <div class="accordion-item">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseThree">
+                            Research
+                        </button>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion">
+                            <div class="accordion-body">
+                                <div class="accordion" id="navbarAccordion9">
+                                    <div class="accordion-item">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#aboutCollapse3" aria-expanded="false" aria-controls="aboutCollapse3">
+                                            Research
+                                        </button>
+                                        <div id="aboutCollapse3" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion9">
+                                            <div class="accordion-body">
+                                                <a href="https://drive.google.com/drive/folders/1S2zgpN3cN8hZIezRC74xnOElYK4zCtjL?usp=drive_link" target="_blank" class="accordion-link">Independent</a>
+                                                <a href="https://drive.google.com/drive/folders/1O6vVBNTOmVOk2SMgg3iXa-vM-XX3_Xgw?usp=drive_link" target="_blank" class="accordion-link">Faculty Grant</a>
+                                                <a href="https://drive.google.com/drive/folders/1XU3TWgsUIaolwWT1MEz7aQ0MLX0w6NGb?usp=drive_link" target="_blank" class="accordion-link">University Grant</a> 
+                                                <a href="https://drive.google.com/drive/folders/1of7jolf4ikPoG4T39h8sidR9F6o39Aq6?usp=drive_link" target="_blank" class="accordion-link">External Grants</a> 
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#aboutCollapse4" aria-expanded="false" aria-controls="aboutCollapse4">
+                                            Community Service
+                                        </button>
+                                        <div id="aboutCollapse4" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion9">
+                                            <div class="accordion-body">
+                                                <a href="https://drive.google.com/drive/folders/1qVAUE04CF78Un4eGhp9Hqn4hYBJHXXqX?usp=drive_link" target="_blank" class="accordion-link">Independent</a>
+                                                <a href="https://drive.google.com/drive/folders/1OpnCYqN2OghGb2fosoD-GIYqBlcQ6Ibs?usp=drive_link" target="_blank" class="accordion-link">Faculty Grant</a>
+                                                <a href="https://drive.google.com/drive/folders/1bpOZBSpxeTiRwSOiEWB8qe5WROj_MQrl?usp=drive_link" target="_blank" class="accordion-link">University Grant</a> 
+                                                <a href="https://drive.google.com/drive/folders/1onF_qnsigug6SulYKlXnAdt-RZO9_1ES?usp=drive_link" target="_blank" class="accordion-link">External Grants</a> 
+                                            </div>
+                                        </div>
+                                    </div>      
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- menu publikasi -->
+                    <div class="accordion-item">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseFour">
+                            Publication
+                        </button>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion">
+                            <div class="accordion-body">
+                                <div class="accordion" id="navbarAccordion30">
+                                    <div class="accordion-item">
+                                        <a href="https://drive.google.com/drive/folders/1x_Q0S9X2gHtEPD1peK4Wo3HlTzugZUJE?usp=drive_link" target="_blank" class="accordion-link">
+                                            Competency Certification
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="https://drive.google.com/drive/folders/1q2PtqPMHujCi_vANtP1Qov3IlEF1sPWf?usp=drive_link" target="_blank" class="accordion-link">
+                                            Patents / HKI
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="https://drive.google.com/drive/folders/103Nw0T6YJ9h16YU6e3cUeuuxzpQqgwhi?usp=drive_link" target="_blank" class="accordion-link">
+                                            Publication
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- menu akademik -->
+                    <div class="accordion-item">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFive">
+                            Academic
+                        </button>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion">
+                            <div class="accordion-body">
+                                <div class="accordion" id="navbarAccordion10">
+                                    <div class="accordion-item">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#aboutCollapse5" aria-expanded="false" aria-controls="aboutCollapse5">
+                                            Course
+                                        </button>
+                                        <div id="aboutCollapse5" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion10">
+                                            <div class="accordion-body">
+                                                <a href="https://drive.google.com/drive/folders/11XKJtsIXidF9hf6l6xS5H4hRbdiEqg7d?usp=drive_link" target="_blank" class="accordion-link">SK Documents</a>
+                                                <a href="https://drive.google.com/drive/folders/1x9-VGj4qtnYuWgl4sD2jfIKQ3I9Y0rTn?usp=drive_link" target="_blank" class="accordion-link">Student Grade Documents</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <a href="https://drive.google.com/drive/folders/1olGhEMgpF-uGdatxt9Sj5-zjpe1d-irU?usp=drive_link" target="_blank" class="accordion-link">
+                                            Student Work
+                                        </a>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#aboutCollapse6" aria-expanded="false" aria-controls="aboutCollapse6">
+                                            Internship
+                                        </button>
+                                        <div id="aboutCollapse6" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion10">
+                                            <div class="accordion-body">
+                                                <a href="https://drive.google.com/drive/folders/1EJcxpwxEe2zTEl9XiXv40aQIAh5CdgzS?usp=drive_link" target="_blank" class="accordion-link">Realization</a>
+                                            </div>
+                                        </div>
+                                    </div>  
+
+                                    <div class="accordion-item">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#aboutCollapse7" aria-expanded="false" aria-controls="aboutCollapse7">
+                                            Final Project/Thesis/Dissertation
+                                        </button>
+                                        <div id="aboutCollapse7" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion10">
+                                            <div class="accordion-body">
+                                                <a href="https://drive.google.com/drive/folders/1ypWxDmcgtFZSyHzErnm2VyAbUrwU1ULG?usp=drive_link" target="_blank" class="accordion-link">Realization</a>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                    
+                                    <div class="accordion-item">
+                                        <a href="https://drive.google.com/drive/folders/15HvR4mBhGRciXekznLZ1vUCQGGW-MwjE?usp=drive_link" target="_blank" class="accordion-link">
+                                            Teaching Practitioners
+                                        </a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- menu Bisnis -->
+                    <div class="accordion-item">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseSix">
+                            Business
+                        </button>
+                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion">
+                            <div class="accordion-body">
+                                <div class="accordion" id="navbarAccordion30">
+                                    <div class="accordion-item">
+                                        <a href="https://drive.google.com/drive/folders/1zCgNJmaxkGehKr8Ppz08bRI1_H9o1wx-?usp=drive_link" target="_blank" class="accordion-link">
+                                            Collaboration
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="https://drive.google.com/drive/folders/1CpgzQ6k3JP2VVmMrS8QvywyLHUIxfXs2?usp=drive_link" target="_blank" class="accordion-link">
+                                            Tracer Study
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- menu Internasional -->
+                    <div class="accordion-item">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSeven">
+                            International
+                        </button>
+                        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion">
+                            <div class="accordion-body">
+                                <div class="accordion" id="navbarAccordion30">
+                                    <div class="accordion-item">
+                                        <a href="https://drive.google.com/drive/folders/1N5TfLTHjLyGkdyJx75dK-J3Kou75aOAt?usp=drive_link" target="_blank" class="accordion-link">
+                                            Research
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="https://drive.google.com/drive/folders/156qmziqzugqxTnxIwgR4OZ6u-F50zFTd?usp=drive_link" target="_blank" class="accordion-link">
+                                            Community service
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="https://drive.google.com/drive/folders/1culn8WGhvdvf3CEhp1R7n4EETaW8U3dC?usp=drive_link" target="_blank" class="accordion-link">
+                                            Other Activities
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- menu Program Kerja -->
+                    <div class="accordion-item">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseEight">
+                            Action Plan
+                        </button>
+                        <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion">
+                            <div class="accordion-body">
+                                <div class="accordion" id="navbarAccordion30">
+                                    <div class="accordion-item">
+                                        <a href="https://drive.google.com/drive/folders/1ZRJscREyOGS88nZ-xQ62V-FMRmlRtg7Q?usp=drive_link" target="_blank" class="accordion-link">
+                                            IKU 1
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="https://drive.google.com/drive/folders/1IydKvfYg05w-pSE1G10yPSmr4jv_1z0h?usp=drive_link" target="_blank" class="accordion-link">
+                                            IKU 2
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="https://drive.google.com/drive/folders/1P_vgJ_rwjHbymBG7yAMfVupFR11aASO7?usp=drive_link" target="_blank" class="accordion-link">
+                                            IKU 3
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="https://drive.google.com/drive/folders/1Q3Mdrpm9dlXOHXqyVkUWL5gYJK1Np9oP?usp=drive_link" target="_blank" class="accordion-link">
+                                            IKU 4
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="https://drive.google.com/drive/folders/1zW5YdJZJcbJkx33n2BTL_MXBGu3TdfeN?usp=drive_link" target="_blank" class="accordion-link">
+                                            IKU 5
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="https://drive.google.com/drive/folders/1chRJ-Ip9BKnsNEV7HyGcIcJ8P_vllhqa?usp=drive_link" target="_blank" class="accordion-link">
+                                            IKU 6
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="https://drive.google.com/drive/folders/1rmfb3H7mpIc7eyG2CwTBPGX6ESkymlyj?usp=drive_link" target="_blank" class="accordion-link">
+                                            IKU 7
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="https://drive.google.com/drive/folders/1NwZeB7MXNuF0tq8MmHeWWmSfxzQR4FFN?usp=drive_link" target="_blank" class="accordion-link">
+                                            IKU 8
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- menu Akreditasi -->
+                    <div class="accordion-item">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseNine">
+                            Accreditation
+                        </button>
+                        <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion">
+                            <div class="accordion-body">
+                                <div class="accordion" id="navbarAccordion30">
+                                    <div class="accordion-item">
+                                        <a href="https://drive.google.com/drive/folders/1CmXc4WgbehjdVoqtB9fG-hU0Ubna-uQ6?usp=drive_link" target="_blank" class="accordion-link">
+                                            Criteria 1
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="https://drive.google.com/drive/folders/1d_m46K_S0O5RbXAvViFRBXGcK-n5GsES?usp=drive_link" target="_blank" class="accordion-link">
+                                            Criteria 2
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="https://drive.google.com/drive/folders/1-giySBWYZT7rwuBYxa99AusLNxcxX0UR?usp=drive_link" target="_blank" class="accordion-link">
+                                            Criteria 3
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="https://drive.google.com/drive/folders/1-h7llTwTVWjZcdmfegZE5KblBOFD2Acc?usp=drive_link" target="_blank" class="accordion-link">
+                                            Criteria 4
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="https://drive.google.com/drive/folders/1V3ybK0rUwiqtDMkLwM0mttkUks1hg7FO?usp=drive_link" target="_blank" class="accordion-link">
+                                            Criteria 5
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="https://drive.google.com/drive/folders/10fmpxGYurHQ4USMV0dxSRLVLJS0IAPmn?usp=drive_link" target="_blank" class="accordion-link">
+                                            Criteria 6
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="https://drive.google.com/drive/folders/1Y0IoLAmEKWEX3EP-I_aHQMK1-XXu2Bm1?usp=drive_link" target="_blank" class="accordion-link">
+                                            Criteria 7
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="https://drive.google.com/drive/folders/1Q_SGivp6YrvgLKUKoR1gB2cCcklEdlq9?usp=drive_link" target="_blank" class="accordion-link">
+                                            Criteria 8
+                                        </a>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <a href="https://drive.google.com/drive/folders/1dSzOL8RtbuU0Uno1ufbofpwIqwJ7ykdx?usp=drive_link" target="_blank" class="accordion-link">
+                                            Criteria 9
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="offcanvas-contact-info">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info list-style">
+                        <li>
+                            <i class="bx bxs-envelope"></i>
+                            <a href="BISDIG.FEBUNJ@gmail.com">BISDIG.FEBUNJ@gmail.com</a>
+                        </li>
+                    </ul>
+                    <ul class="social-profile list-style">
+                        <li><a href="https://www.facebook.com/FE.UNJ" target="_blank"><i class='bx bxl-facebook'></i></a></li>
+                        <li><a href="https://www.instagram.com/bisdigitalunj/?hl=en" target="_blank"><i class='bx bxl-instagram'></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCNRpXzZs6E4fp_DC81INZww" target="_blank"><i class='bx bxl-youtube' ></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End Responsive Navbar Area -->
+
+        <!-- Start Clgun Searchbar Area -->
+        <div class="clgun offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop">
+            <div class="offcanvas-header">
+                <a href="main.php" class="logo" style="display: flex; align-items: center; gap: 5px;">
+                    <img src="assets/img/logo/unjfeb.png" alt="image" style="width: 100px; height: auto;">
+                    <img src="assets/img/logo/dikti.png" alt="image" style="width: 70px; height: auto;">
+                </a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="search-box">
+                    <div class="searchwrapper"> 
+                        <div class="searchbox"> 
+                            <div class="row align-items-center"> 
+                                <!-- <div class="col-lg-3">  -->
+                                    <a class="btn" href="#" onclick="logout()">Logout</a>
+                                    <script>
+                                        function logout() {
+                                            const yakin = confirm("Are you sure want to logout?");
+                                            if (yakin) {
+                                            // Misalnya pakai localStorage
+                                            localStorage.clear();
+                                            // Arahkan ke login page atau logout.php
+                                            window.location.href = "index.html";
+                                            }
+                                        }
+                                    </script>
+                                <!-- </div>  -->
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="offcanvas-contact-info">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info list-style">
+                        <li>
+                            <i class="bx bxs-envelope"></i>
+                            <a href="febunj@gmail.com">febunj@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="bx bxs-map"></i>
+                            <p>SFD Tower B, Jakarta State University </p>
+                            <p>Rawamangun Muka St., RT.11/RW.14, Rawamangun, Kec. Pulo Gadung, East Jakarta, Jakarta Province 13220</p>
+                        </li>
+                    </ul>
+                    <ul class="social-profile list-style">
+                        <li><a href="https://www.facebook.com/FE.UNJ" target="_blank"><i class='bx bxl-facebook'></i></a></li>
+                        <li><a href="https://www.instagram.com/bisdigitalunj/?hl=en" target="_blank"><i class='bx bxl-instagram'></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCNRpXzZs6E4fp_DC81INZww" target="_blank"><i class='bx bxl-youtube'></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <!-- End Clgun Searchbar Area -->
+
+        
+
+
 
         <!-- Start Clgun Banner 2 Area -->
         <div class="banner-area-2 big-bg-2">
@@ -243,5 +867,65 @@
         </div> 
         <!-- End Subscribe Area 2 -->
 
-        <?php include "footer.html"; ?>
+        <!-- Start Footer Area -->
+        <div class="footer-area">
+            <div class="footer-top-info pb-100">
+                <div class="content">
+                    <div class="image">
+                        <img src="assets/img/logo/unj.png" alt="logoUNJ" width="110" style="height: auto;">
+                    </div>
+                    <p>Integrity | Respect | Professional | Enterpreneurship | Impact</p>
+                    <ul>
+                        <li><a href="https://www.facebook.com/FE.UNJ" target="_blank"><i class='bx bxl-facebook'></i></a></li>
+                        <li><a href="https://www.instagram.com/bisdigitalunj/?hl=en" target="_blank"><i class='bx bxl-instagram'></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCNRpXzZs6E4fp_DC81INZww"><i class='bx bxl-youtube'></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copy-right-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12 col-xm-6">
+                            <div class="cpr-left">
+                                <p>Copyright© <a href="#">FEB UNJ 2025</a>, All rights reserved.</p>
+                            </div>
+
+                            <!-- google translate -->                           
+                            <div id="google_translate_element"></div>                       
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Area -->
+
+        <div class="go-top active">
+            <i class="bx bx-up-arrow-alt"></i>
+        </div>
+
+        <!-- google translate -->
+        <script type="text/javascript">
+        function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+            {pageLanguage: 'id', includedLanguages: 'en,id'},
+            'google_translate_element'
+        );
+        }
+        </script>
+
+        <script type="text/javascript" 
+            src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+        </script>
+
+
+        <!-- Links of JS files -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/aos.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/magnific-popup.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
 
